@@ -1,0 +1,11 @@
+
+.tablecol {
+    display:flex;
+}
+.tablecol p {
+    margin-right: 350px;
+}
+.container {
+    height: 630px;
+    overflow-y: auto;
+}

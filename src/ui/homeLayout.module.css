@@ -1,0 +1,7 @@
+.layout {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2d3748;
+    color: #fff;
+    height: 100vh;
+}

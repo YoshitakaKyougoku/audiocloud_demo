@@ -1,0 +1,52 @@
+.table {
+    display: flex;
+    justify-items: stretch;
+    width: 100%;
+    flex: 2;
+}
+.table p {
+    font-size: 80%;
+}
+.table:hover {
+    background-color: #000;
+}
+.box {
+    display: flex;
+    width: 100%;
+}
+.key {
+    height: 80px;
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+}
+.name {
+    text-align: start;
+    margin-bottom:0.5rem; 
+    //background-color: #4299e1;
+}
+.tags {
+    display:flex;
+}
+.tag {
+    margin:0 0.125rem;
+    background-color: green;
+}
+.usericon {
+    height:20px;
+}
+.memo {
+    overflow-x: scroll;
+    text-align: start;
+}
+.selected {
+    display: flex;
+    width: 100%;
+    background-color: #000;
+}
+.selected p {
+    font-size: 80%;
+}
+.selected:hover {
+    background-color: #000;
+}

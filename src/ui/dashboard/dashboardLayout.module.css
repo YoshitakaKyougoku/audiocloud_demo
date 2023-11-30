@@ -1,0 +1,31 @@
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  @media (min-width: 768px) {
+    overflow: hidden;
+  }
+  height: 100vh
+}
+.sidenav {
+    width: 100%;
+    flex: none;
+    @media (min-width: 768px) {
+    width: 6rem; 
+  }
+  height: 100%;
+}
+.children {
+    flex-grow: 1;
+    
+    @media (min-width: 768px) {
+    overflow-y: visible;
+  }
+  @media (min-width: 768px) {
+    padding: 0.5rem; 
+  }
+  
+}

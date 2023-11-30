@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./node_modules/@types", "./typings"],
     "target": "es5",
+    "downlevelIteration": true,
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,

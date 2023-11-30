@@ -1,0 +1,30 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem; 
+    padding-bottom: 1rem;
+    background-color: #cbd5e0;
+    height: 100vh
+}
+.homelink {
+    color: white;
+    padding-bottom:0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px dashed #000;
+}
+.icon {
+    margin-bottom: 0.75rem;
+    color: #4299e1;
+    border-radius: 0.5rem
+}
+.linked {
+    color: #000;
+    background-color:white;
+    box-shadow: 0.25rem 0.25rem 2px 1px rgba(0, 0, 255, .2);
+}
+.links {
+    margin: 0.5rem;
+    padding: 4px;
+}

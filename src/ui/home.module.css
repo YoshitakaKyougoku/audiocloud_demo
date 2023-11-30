@@ -1,0 +1,10 @@
+.titile {
+    font-size: 1.875rem; /* Tailwind default: 1.25rem (20px) */
+    line-height: 1.75; /* Tailwind default: 1.75 */
+    color: #cbd5e0;
+    background-color: #000;
+    line-height: 1.75;
+  }
+  .link {
+    color: #4299e1;
+  }
